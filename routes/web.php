@@ -33,6 +33,6 @@ Route::get('contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('test', function () {
-    return view('test');
-})->name('test');
+Route::get('develop', function () {
+    return view('develop');
+})->name('develop');
